@@ -1,6 +1,19 @@
 <!-- eslint-disable vue/multi-word-component-names -->
-<script lang="ts" setup></script>
-<template>
-  <h1>About</h1>
-</template>
+<script lang="ts" setup>
+  import DefaultLayout from '@/layouts/general/DefaultLayout.vue';
+  import AboutHero from '@/components/AboutHero.vue';
+  import ExpertiseStack from '@/components/ExpertiseStack.vue';
+  import JourneyTimeline from '@/components/JourneyTimeline.vue';
+  import AboutCta from '@/components/AboutCta.vue';
+</script>
 
+<template>
+  <DefaultLayout>
+    <div class="min-h-screen pt-20">
+      <AboutHero />
+      <ExpertiseStack />
+      <JourneyTimeline />
+      <AboutCta />
+    </div>
+  </DefaultLayout>
+</template>
