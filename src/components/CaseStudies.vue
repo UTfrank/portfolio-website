@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { ArrowRight, Sun } from 'lucide-vue-next';
 import { ref } from 'vue';
 
@@ -52,10 +53,25 @@ const projects = [
         </p>
       </div>
 
+      <Tabs default-value="account">
+
+        <TabsList class="bg-transparent grid md:grid-cols-5 gap-6">
+          <TabsTrigger v-for="filter in filters" :key="filter" :value="filter" class="px-5 py-2.5 rounded-full text-xs font-semibold transition-colors border"
+          :class="activeFilter === filter ? 'bg-blue-200 text-black! border-blue-200' : 'bg-zinc-800/50 text-white border-white/10 hover:bg-white/10'">
+            {{ filter }}
+          </TabsTrigger>
+        </TabsList>
+
+        <TabsContent v-for="filter in filters" :key="filter" :value="filter">
+          Make changes to your account here.
+        </TabsContent>
+
+      </Tabs>
+
       <!-- Filters -->
       <div class="flex flex-wrap gap-3 mb-12">
-        <button 
-          v-for="filter in filters" 
+        <button
+          v-for="filter in filters"
           :key="filter"
           @click="activeFilter = filter"
           class="px-5 py-2.5 rounded-full text-xs font-semibold transition-colors border"
@@ -67,15 +83,15 @@ const projects = [
 
       <!-- Grid -->
       <div class="grid md:grid-cols-2 gap-6">
-        <div v-for="project in projects" :key="project.title" 
+        <div v-for="project in projects" :key="project.title"
              class="group relative overflow-hidden rounded-3xl aspect-[4/3] bg-zinc-900 border border-white/5 cursor-pointer"
              :class="project.colSpan">
           <!-- Image -->
           <img :src="project.image" :alt="project.title" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-60 group-hover:opacity-80" />
-          
+
           <!-- Gradient Overlay -->
           <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
-          
+
           <!-- Content -->
           <div class="absolute inset-0 p-8 flex flex-col justify-end">
             <span class="text-[10px] font-bold tracking-widest text-blue-300 uppercase mb-2">{{ project.category }}</span>

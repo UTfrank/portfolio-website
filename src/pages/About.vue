@@ -4,7 +4,7 @@
   import AboutHero from '@/components/AboutHero.vue';
   import ExpertiseStack from '@/components/ExpertiseStack.vue';
   import JourneyTimeline from '@/components/JourneyTimeline.vue';
-  import AboutCta from '@/components/AboutCta.vue';
+  import CtaSection from '@/components/CtaSection.vue';
 </script>
 
 <template>
@@ -13,7 +13,7 @@
       <AboutHero />
       <ExpertiseStack />
       <JourneyTimeline />
-      <AboutCta />
+      <CtaSection />
     </div>
   </DefaultLayout>
 </template>

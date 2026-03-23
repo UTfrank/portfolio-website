@@ -1,4 +1,6 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { RouterLink } from 'vue-router';
+</script>
 
 <template>
   <section class="py-24 relative overflow-hidden">
@@ -14,9 +16,9 @@
             We focus on real results. Driven by deep technical knowledge, we partner with you to give your software and tech operations the competitive advantage.
           </p>
           <div class="pt-4">
-            <button class="border border-white/20 hover:bg-white/10 text-white text-sm font-medium py-3 px-6 rounded-full transition-colors">
+            <RouterLink to="/about" class="border border-white/20 hover:bg-white/10 text-white text-sm font-medium py-3 px-6 rounded-full transition-colors">
               Read About Us
-            </button>
+            </RouterLink>
           </div>
         </div>
 
