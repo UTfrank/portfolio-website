@@ -22,7 +22,7 @@
         <!-- Right: Services Grid -->
         <div class="grid sm:grid-cols-2 gap-6">
           <!-- Service 1: Highlighted -->
-          <div class="bg-blue-200 rounded-[2rem] p-8 space-y-36 relative group overflow-hidden transition-transform hover:-translate-y-2">
+          <div class="bg-[#a5c5f7] rounded-[2rem] p-8 space-y-36 relative group overflow-hidden transition-transform hover:-translate-y-2">
             <div class="text-black">
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
             </div>

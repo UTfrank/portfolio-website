@@ -57,7 +57,7 @@ const projects = [
 
         <TabsList class="bg-transparent grid md:grid-cols-5 gap-6">
           <TabsTrigger v-for="filter in filters" :key="filter" :value="filter" class="px-5 py-2.5 rounded-full text-xs font-semibold transition-colors border"
-          :class="activeFilter === filter ? 'bg-blue-200 text-black! border-blue-200' : 'bg-zinc-800/50 text-white border-white/10 hover:bg-white/10'">
+          :class="activeFilter === filter ? 'bg-[#a5c5f7] text-black! border-blue-200' : 'bg-zinc-800/50 text-white border-white/10 hover:bg-white/10'">
             {{ filter }}
           </TabsTrigger>
         </TabsList>
@@ -75,7 +75,7 @@ const projects = [
           :key="filter"
           @click="activeFilter = filter"
           class="px-5 py-2.5 rounded-full text-xs font-semibold transition-colors border"
-          :class="activeFilter === filter ? 'bg-blue-200 text-black border-blue-200' : 'bg-zinc-800/50 text-white border-white/10 hover:bg-white/10'"
+          :class="activeFilter === filter ? 'bg-[#a5c5f7] text-black border-blue-200' : 'bg-zinc-800/50 text-white border-white/10 hover:bg-white/10'"
         >
           {{ filter }}
         </button>

@@ -33,7 +33,7 @@
           </div>
 
           <div class="flex flex-wrap items-center gap-4 pt-4">
-            <button class="bg-blue-200 hover:bg-blue-300 text-black font-semibold py-3 px-8 rounded-full transition-colors inline-flex items-center gap-2">
+            <button class="bg-[#a5c5f7] hover:bg-blue-300 text-black font-semibold py-3 px-8 rounded-full transition-colors inline-flex items-center gap-2">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
               RESUME (PDF)
             </button>
@@ -48,7 +48,7 @@
           <img src="/src/assets/hero.JPG" alt="Portrait" class="w-full max-w-[400px] object-cover rounded-3xl z-10 relative bg-zinc-900 aspect-[4/5] object-top" />
 
           <!-- Floating stats card -->
-          <div class="absolute -bottom-6 -left-6 bg-blue-200 text-black p-4 rounded-2xl shadow-xl z-20 flex flex-col items-center justify-center gap-1 min-w-[120px]">
+          <div class="absolute -bottom-6 -left-6 bg-[#a5c5f7] text-black p-4 rounded-2xl shadow-xl z-20 flex flex-col items-center justify-center gap-1 min-w-[120px]">
             <span class="font-bold text-2xl flex items-center">
               8+ <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg>
             </span>

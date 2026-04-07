@@ -21,7 +21,7 @@ import { RouterLink } from 'vue-router';
           </p>
 
           <div class="flex flex-wrap items-center gap-6 pt-4">
-            <RouterLink to="/contact" class="bg-blue-200 hover:bg-blue-300 text-black font-semibold py-3 px-8 rounded-md transition-colors">
+            <RouterLink to="/contact" class="bg-[#a5c5f7] hover:bg-blue-300 text-black font-semibold py-3 px-8 rounded-md transition-colors">
               Let's talk
             </RouterLink>
             <RouterLink to="/projects" class="flex items-center gap-2 text-white hover:text-blue-300 transition-colors font-medium">

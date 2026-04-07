@@ -11,7 +11,7 @@
           Whether you have a specific project in mind or just want to chat <br/>
           technology, I'm always open to discussing.
         </p>
-        <button class="bg-blue-200 hover:bg-blue-300 text-black font-semibold py-3 px-8 rounded-full transition-colors relative z-10">
+        <button class="bg-[#a5c5f7] hover:bg-blue-300 text-black font-semibold py-3 px-8 rounded-full transition-colors relative z-10">
           Get in touch
         </button>
       </div>

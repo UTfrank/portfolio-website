@@ -5,7 +5,7 @@ const skills = [
     title: "Modern Frontend",
     desc: "Responsive and fast UIs crafted by leveraging modern tools like Vue, React, for performance and SEO.",
     link: "#",
-    color: "bg-blue-200 text-black",
+    color: "bg-[#a5c5f7] text-black",
     iconColor: "text-black"
   },
   {

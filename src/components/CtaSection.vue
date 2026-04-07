@@ -5,7 +5,7 @@ import { RouterLink } from 'vue-router';
 <template>
   <section class="py-24 pb-32">
     <div class="container">
-      <div class="bg-blue-200 rounded-[3rem] px-8 py-20 text-center flex flex-col items-center justify-center relative overflow-hidden">
+      <div class="bg-[#a5c5f7] rounded-[3rem] px-8 py-20 text-center flex flex-col items-center justify-center relative overflow-hidden">
         <!-- subtle gradient overlay for realism -->
         <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/5"></div>
 
